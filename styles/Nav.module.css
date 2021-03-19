@@ -1,0 +1,30 @@
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+  
+.nav ul li a {
+  margin: 5px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.app__title{
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+  padding-left: 30px;
+}
