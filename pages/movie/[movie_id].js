@@ -8,7 +8,7 @@ const MovieID = ({ property }) => {
   const router = useRouter();
   const { movie_id } = router.query;
   return (
-    <div className="movie-page">
+    <div className="relative h-full w-full">
       {property && <MovieDetails property={property} />}
     </div>
   );
