@@ -6,8 +6,10 @@ const MovieDetails = ({ property }) => {
           src={property.poster}
           className="p-[10px] h-[350px] rounded-3xl sm:h-[400px] md:self-start"
         ></img>
-        <div className="text-glass">
-          <h2 className="font-extrabold text-lg">{property.title}</h2>
+        <div className="text-glass text-white">
+          <h2 className="font-extrabold text-lg tracking-wide">
+            {property.title}
+          </h2>
           <div className="font-bold">{property.year}</div>
           <p className="py-[15px] m-1 font-medium">{property.fullplot}</p>
           <div className="small-tag fit-content tomato-meter">
