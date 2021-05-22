@@ -1,12 +1,12 @@
 const MovieDetails = ({ property }) => {
   return (
-    <section className="bg-gray-700">
+    <section className="bg-gray-200">
       <div className="flex flex-col items-center">
         <img
           src={property.poster}
           className="p-[10px] h-[350px] rounded-3xl sm:h-[400px] md:self-start"
         ></img>
-        <div className="text-glass text-white">
+        <div className="text-glass text-black ml-[10px]">
           <h2 className="font-extrabold text-lg tracking-wide">
             {property.title}
           </h2>
